@@ -4,24 +4,43 @@
 <?php include 'header.php';?>
   <script>
   $(function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({
+	  heightStyle: "content"
+	});
   });
   </script>
   <div id="content-wrap">
 	<?php include 'sidebar.php';?>
     <div id="main"> <a name="TemplateInfo"></a>
-	<h1><strong>Work Samples</strong></h1>
+	<h1><strong>Work Projects</strong></h1>
 			<br/>
 			
 			<div id="accordion">
+				<h3><strong>Emerson Climate Technologies Comfort Guard</strong><a id="scottrade"></a></h3>
+				<div>
+					<p><b>Client:</b> Scottrade</p>
+					<p><b>Project Brief:</b> Worked as a .NET Software Development Intern using C#, Java, HTML and javascript(jQuery). The software goal was geared to alert the client if something was wrong with their heating & cooling system. Sensors were installed with the systems to verify that they were running properly. The core software was Microsoft's MVC .NET framework.</p>					
+					<br/>
+					<iframe width="100%" height="325" src="https://media.licdn.com/media-proxy/ext?w=545&h=306&f=&hash=wpbyfhEegXMBHYFm17QCeeJlWEM%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0VjkhRIXxxMi5KDPrkC9q1FOQYfTTTSmWyOi_dCHYRjoe8_fZ-jh8w" frameborder="0" allowfullscreen></iframe>	
+				</div>
 				
 				<h3><strong>Scottrader Trading Application</strong><a id="scottrade"></a></h3>
 				<div>
 					<p><b>Client:</b> Scottrade</p>
 					<p><b>Project Brief:</b> I assisted in the debugging, testing, and development for this client-facing trading application. These are public tutorials that display various functionality used within the application.</p>					
 					<br/>
-					<iframe width="100%" height="500" src="//www.youtube.com/embed/Cz3Oa9jxlp8?list=SP4CC2970F8120B543" frameborder="0" allowfullscreen></iframe>
+					<a href="https://www.scottrade.com/online-trading/trading-platform-scottrader.html">
+					<img src="https://www.scottrade.com/online-trading/trading-platform-scottrader/_jcr_content/par/image.img.jpg/1378998112577.jpg" width="95%"height="200">
+					</a>
 				</div>
+				<h3><strong>VSNAP Networking Specialist</strong><a id="scottrade"></a></h3>
+				<div>
+					<p><b>Client:</b> United States Marine Corps</p>
+					<p><b>Project Brief:</b> Performed work transporting, installing, and preparing the VSNAP (Virtual Secure / Non-secure Internet Protocol Router Network Access Point) for operation which provided much needed connection from the remote site in Ubaydi to Baghdad, Iraq where data was processed to identify potential terrorist movement. Identified components and techniques to properly operate and troubleshoot the Cisco switches and properly install, operate, and troubleshoot the KG-175D, an integrated cryptographic network device that encrypted and decrypted SIPRNet(Secure Internet Protocol Router Network) traffic. This is a small overview of the type of technology I worked with overseas. For more information about my military experiences look at my <a href="/military.php">Military Experience</a> page.</p>					
+					<br/>
+					<iframe src="//www.slideshare.net/slideshow/embed_code/key/RaVsy8ZoRoGUO" width="100%" height="510" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/BrianOlsen3/snap-overview-21209" title="SNAP Overview 2-12-09" target="_blank">SNAP Overview 2-12-09</a> </strong> from <strong><a href="//www.slideshare.net/BrianOlsen3" target="_blank">Brian Olsen</a></strong> </div>
+				</div>
+				
 				
 				<h3><strong>Transition Assistance Website</strong><a id="website"></a></h3>
 				<div>

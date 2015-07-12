@@ -1,1 +1,1 @@
-<?php include 'news.php';?>
+<?php include 'about.php';?>

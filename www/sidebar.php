@@ -11,9 +11,9 @@
         <li><a href="/index.php">Home</a></li>
         <li><a href="/education.php">Education</a></li>
 		<li><a href="/research.php">Research</a></li>
-        <li><a href="/work.php">Work Samples</a></li>
+        <li><a href="/work.php">Work Projects</a></li>
         <li><a href="/military.php">Military Experience</a></li>
-        <li><a href="/hobbies.php">Hobbies</a></li>
+        <!--li><a href="/hobbies.php">Hobbies</a></li-->
       </ul>
       <h1>Links</h1>
       <ul class="sidemenu">
@@ -43,7 +43,7 @@
         <li><a href="http://www.jquery.com" target = "_blank" title="Simpler Javascript and Ajax Requests!">JQuery</a></li>
         <li><a href="http://www.jqueryui.com" target = "_blank" title="Convenient widgets with cool animations!">JQuery UI</a></li>
         <li><a href="http://www.styleshout.com/" target = "_blank" title="Made the color theme and CSS styling.">Styleshout</a></li>
-        <li><a href="http://www.abeautifulsite.net/jquery-file-tree/" target = "_blank" title="JQuery based file tree to search through my repositories.">A Beutiful Site.net</a></li>
-        <li><a href="http://alexgorbatchev.com/SyntaxHighlighter/" target = "_blank" title="Syntax Highlighter to make my code look pretty.">Alex Gorbatchev</a></li>
+        <!--li><a href="http://www.abeautifulsite.net/jquery-file-tree/" target = "_blank" title="JQuery based file tree to search through my repositories.">A Beutiful Site.net</a></li>
+        <li><a href="http://alexgorbatchev.com/SyntaxHighlighter/" target = "_blank" title="Syntax Highlighter to make my code look pretty.">Alex Gorbatchev</a></li-->
       </ul>
     </div>

@@ -29,7 +29,7 @@
     <h2 id="slogan">n. [brAY-uhn] an organism that turns caffeine into software.</h2>
     <div id="menu">
       <ul>
-        <li><a href="/news.php">News</a></li>
+        <!--li><a href="/news.php">News</a></li-->
         <li><a href="/about.php">About Me</a></li>
         <li><a href="/downloads.php">Downloads</a></li>
         <li><a href="/contact.php">Contact</a></li>
