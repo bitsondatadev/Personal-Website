@@ -14,7 +14,7 @@ $query = "SELECT * FROM ".$table." ORDER BY `ID`";
 if($query_run = mysql_query($query)){
 
 	while($query_row = mysql_fetch_assoc($query_run)){
-		$filename=$query_row['filename'];
+		$filename=$root.$query_row['filename'];
 		$width=$query_row['width'];
 		$height=$query_row['height'];
 		$description=$query_row['description'];

@@ -36,24 +36,27 @@
 				<h3><strong>VSNAP Networking Specialist</strong><a id="scottrade"></a></h3>
 				<div>
 					<p><b>Client:</b> United States Marine Corps</p>
-					<p><b>Project Brief:</b> Performed work transporting, installing, and preparing the VSNAP (Virtual Secure / Non-secure Internet Protocol Router Network Access Point) for operation which provided much needed connection from the remote site in Ubaydi to Baghdad, Iraq where data was processed to identify potential terrorist movement. Identified components and techniques to properly operate and troubleshoot the Cisco switches and properly install, operate, and troubleshoot the KG-175D, an integrated cryptographic network device that encrypted and decrypted SIPRNet(Secure Internet Protocol Router Network) traffic. This is a small overview of the type of technology I worked with overseas. For more information about my military experiences look at my <a href="/military.php">Military Experience</a> page.</p>					
+					<p><b>Project Brief:</b> Performed work transporting, installing, and preparing the VSNAP (Virtual Secure / Non-secure Internet Protocol Router Network Access Point) for operation which provided much needed connection from the remote site in Ubaydi to Baghdad, Iraq where data was processed to identify potential terrorist movement. Identified components and techniques to properly operate and troubleshoot the Cisco switches and properly install, operate, and troubleshoot the KG-175D, an integrated cryptographic network device that encrypted and decrypted SIPRNet(Secure Internet Protocol Router Network) traffic. This is a small overview of the type of technology I worked with overseas. For more information about my military experiences look at my <?php echo '<a href="'.$root.'military.php">';?>Military Experience</a> page.</p>					
 					<br/>
 					<iframe src="//www.slideshare.net/slideshow/embed_code/key/RaVsy8ZoRoGUO" width="100%" height="510" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/BrianOlsen3/snap-overview-21209" title="SNAP Overview 2-12-09" target="_blank">SNAP Overview 2-12-09</a> </strong> from <strong><a href="//www.slideshare.net/BrianOlsen3" target="_blank">Brian Olsen</a></strong> </div>
 				</div>
 				
-				
-				<h3><strong>Transition Assistance Website</strong><a id="website"></a></h3>
+				<?php
+				echo
+				'<h3><strong>Transition Assistance Website</strong><a id="website"></a></h3>
 				<div>
 					<p><b>Client:</b> Airman & Family Readiness Center</p>
+					
+					
 					<p><b>Project Brief:</b> I established a website that expedited the job finding process for recently retired military members. I also provided many user friendly tutorials for the client and tracked statistical data for the company.</p>
 					<p>Main Page</p>
-					<a href="images/Website1.jpg"><img src="images/Website1.jpg" width="95%" class="center"></img></a>
+					<a href="'.$root.'images/Website1.jpg"><img src="'.$root.'images/Website1.jpg" width="95%" class="center"></img></a>
 					<p>Google Docs - Job Listings</p>
-					<a href="images/Website2.jpg"><img src="images/Website2.jpg" width="95%" class="center"></img></a>
+					<a href="'.$root.'images/Website2.jpg"><img src="'.$root.'images/Website2.jpg" width="95%" class="center"></img></a>
 					<p>Download Assistance</p>
-					<a href="images/Website3.jpg"><img src="images/Website3.jpg" width="60%" class="center"></img></a>
+					<a href="'.$root.'images/Website3.jpg"><img src="'.$root.'images/Website3.jpg" width="60%" class="center"></img></a>
 					<p>Monthly Report For The Website</p>		
-					<a href="images/Website4.jpg"><img src="images/Website4.jpg" width="95%" align="center"></img></a>
+					<a href="'.$root.'images/Website4.jpg"><img src="'.$root.'images/Website4.jpg" width="95%" align="center"></img></a>
 				</div>
 				
 				<h3><strong>Statistical Knowledge Checks using Microsoft Excel</strong><a id="microsoft"></a></h3>
@@ -62,14 +65,15 @@
 					<p><b>Project Brief:</b> I created a spreadsheet that takes input from our clients that measures the amount that they learned during our various classes and seminars.</p>
 
 					<p>This chart represented a bi-weekly look at how much knowledge increased during a seminar during the last two weeks. Each bar represents a question that could specify a high or low knowledge increase.</p>
-					<a href="images/KnowledgeCheck1.jpg"><img src="images/KnowledgeCheck1.jpg" width="95%" class="center"></img></a>
+					<a href="'.$root.'images/KnowledgeCheck1.jpg"><img src="'.$root.'images/KnowledgeCheck1.jpg" width="95%" class="center"></img></a>
 					<p>This was the area that my clients inputed the data in. The other areas are protected from user manipulation to avoid accidental tampering with the document.</p>
-					<a href="images/KnowledgeCheck2.jpg"><img src="images/KnowledgeCheck2.jpg" width="60%" class="center"></img></a>
+					<a href="'.$root.'images/KnowledgeCheck2.jpg"><img src="'.$root.'images/KnowledgeCheck2.jpg" width="60%" class="center"></img></a>
 					<p>As the bi-weekly reports are filled in, the quartly reports update as well.</p>
-					<a href="images/KnowledgeCheck4.jpg"><img src="images/KnowledgeCheck4.jpg" width="60%" class="center"></img></a>
+					<a href="'.$root.'images/KnowledgeCheck4.jpg"><img src="'.$root.'images/KnowledgeCheck4.jpg" width="60%" class="center"></img></a>
 					<p>As data from the quarterly reports are filled the annual report is automatically completed as well. </p>		
-					<a href="images/KnowledgeCheck3.jpg"><img src="images/KnowledgeCheck3.jpg" width="60%" class="center"></img></a>
-				</div>
+					<a href="'.$root.'images/KnowledgeCheck3.jpg"><img src="'.$root.'images/KnowledgeCheck3.jpg" width="60%" class="center"></img></a>
+				</div>';
+				?>
 			</div>
     </div>
     <br />

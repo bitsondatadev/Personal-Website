@@ -8,19 +8,21 @@
 	<div id="sidebar" >
       <h1 class="clear">Site Menu</h1>
       <ul class="sidemenu">
-        <li><a href="/index.php">Home</a></li>
-        <li><a href="/education.php">Education</a></li>
-		<li><a href="/research.php">Research</a></li>
-        <li><a href="/work.php">Work Projects</a></li>
-        <li><a href="/military.php">Military Experience</a></li>
-        <!--li><a href="/hobbies.php">Hobbies</a></li-->
+		<?php
+			echo '<li><a href="'.$root.'index.php">Home</a></li>
+				  <li><a href="'.$root.'education.php">Education</a></li>
+				  <li><a href="'.$root.'research.php">Research</a></li>
+				  <li><a href="'.$root.'work.php">Work Projects</a></li>
+				  <li><a href="'.$root.'military.php">Military Experience</a></li>
+				  <!--li><a href="'.$root.'hobbies.php">Hobbies</a></li-->';
+		?>
       </ul>
       <h1>Links</h1>
       <ul class="sidemenu">
-        <li><a href="http://www.linkedin.com/pub/brian-olsen/31/164/79">My Linked In</a></li>
-        <li><a href="http://apache.org">Apache</a></li>
-        <li><a href="http://givecamp.org/">Give Camp</a></li>
-        <li><a href="http://python.org">Python</a></li>
+        <li><a href="http://www.linkedin.com/pub/brian-olsen/31/164/79">Linked In</a></li>
+        <li><a href="https://github.com/brianolsen87">Git Hub</a></li>
+        <li><a href="https://www.purdue.edu/discoverypark/vaccine/">Purdue VACCINE (My Lab)</a></li>
+        <li><a href="https://www.cs.purdue.edu/">Purdue Computer Science</a></li>
         <li><a href="mailto:brianolsen87@gmail.com?subject=Inquiry from Website.">Email</a></li>
       </ul>
       <h1>Search</h1>

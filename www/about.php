@@ -6,7 +6,9 @@
 	<?php include 'sidebar.php';?>
     <div id="main"> <a name="TemplateInfo"></a>
 	<h1><strong>About Me</strong></h1>
-			<img src ="/images/about/main_image.jpg" width="400" height="521" class='center' ></img>
+			<?php
+				echo '<img src ="'.$root.'images/about/main_image.jpg" width="400" height="521" class="center" ></img>';
+			?>
 			<br/>
 			<p>My name is Brian Olsen, I am a Masters student at Purdue University studying Computer Science.  
 			My primary interests focus on algorithms that support emerging technologies in database systems. 
